@@ -1,0 +1,59 @@
+.pagination {
+    width: 100%;
+}
+.paginattion__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.prev__page-btn,
+.next__page-btn {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    border: none;
+    transition: .3s;
+}
+.prev__page-btn i,
+.next__page-btn i {
+    margin-bottom: 0;
+    font-size: 16pt;
+}
+.prev__page-btn:hover,
+.next__page-btn:hover {
+    transition: .3s;
+    color: #b8b8b8;
+}
+.prev__page-btn {
+    margin-right: 10px;
+}
+.next__page-btn {
+    margin-left: 10px;
+}
+.listOfPages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listOfPages button {
+    padding: 5px 15px;
+    color: #50526e;
+    transition: .3s;
+    background-color: transparent;
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+}
+.listOfPages button:hover {
+    transition: .3s;
+    color: #b8b8b8;
+}
+
+.listOfPages button.active {
+    background-color: #005FA3;
+    color: #fff;
+}
+.listOfPages button.hidden {
+    display: none;
+}

@@ -1,0 +1,73 @@
+.top__word-wrapper {
+    background-image: url('./../../img/top.svg');
+    background-color: #ddfaff;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 80px 0;
+}
+
+.top__words-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.top__words-sub-title {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.top__words-list-wrapper {
+    margin-bottom: 40px;
+}
+.top__words-list {
+    column-count: 3;
+    -webkit-column-count: 3;
+}
+.top__words-list-item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+.top__words-list-link {
+    color: #0059fb;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.top__words-letters {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.14);
+    padding: 40px;
+}
+.top__words-letters-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.top__words-letters-item {
+    flex: 1 1;
+    max-width: 70px;
+    min-width: 57px;
+}
+.top__words-letters-link {
+    align-items: center;
+    background: #ddfaff;
+    border-radius: 8px;
+    color: #0059fb;
+    display: flex;
+    flex: 1 1;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    justify-content: center;
+    line-height: 22px;
+}

@@ -1,0 +1,214 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
+
+.admin__panel {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.admin__panel-sidebar {
+    position: relative;
+    width: 15%;
+    background-color: #2c3338;
+    padding: 5px;
+}
+
+.sidebar__top {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.sidebar__top .logo {
+    margin: 0;
+}
+
+.sidebar__nav-list-link {
+    color: #606468;
+    font-size: 17px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.sidebar__nav-list-link svg {
+    margin-right: 5px;
+    font-size: 24px;
+}
+
+.sidebar__nav-list-link:hover {
+    background-color: #d44179;
+    color: #fff;
+    transition: .3s;
+}
+
+.admin__panel-content {
+    width: 100%;
+    position: relative;
+}
+
+.content__header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.content__search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-basis: 40%;
+    position: relative;
+}
+
+.content__search input {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #434a52;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    background-color: #F3F5F7;
+    margin-left: 30px;
+}
+
+.content__search input::placeholder {
+    color: #8F9092;
+}
+
+.content__search button {
+    border: none;
+    background-color: transparent;
+    color: #8F9092;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.content__header-nav {
+    padding: 20px;
+}
+
+.content__header-nav a {
+    font-size: 17px;
+    color: #fff;
+    background-color: #d44179;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+.content__main-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.content__main-header button {
+    padding: 10px 20px;
+    background-color: #0059fb;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.content__words-list {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.content__words-list .title {
+    font-size: 20px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+.list-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.list-tabs .tabs-name,
+.word .word-name{
+    width: 40%;
+}
+.list-tabs .tabs-category,
+.list-tabs .tabs-date,
+.list-tabs .tabs-empty,
+.word .word-category,
+.word .word-date,
+.word .word-control {
+    width: 20%;
+}
+.words {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+.word {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+    width: 100%;
+}
+.word:hover {
+    transition: .3s;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    width: 98%;
+}
+.word .word-name {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #111;
+}
+.word .word-name svg {
+    color: #0039a4;
+    margin-right: 5px;
+}
+.word .word-control .word-edit,
+.word .word-control .word-delete {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.word .word-control .word-edit {
+    background-color: #0039a4;
+    margin-right: 20px;
+}
+.word .word-control .word-delete {
+    background-color: #d44179;
+}
+.words .pagination {
+    margin-top: 40px;
+}

@@ -1,0 +1,56 @@
+.main__advers {
+    padding: 100px 0;
+}
+
+.main__advers .container {
+    display: flex;
+    align-items: center;
+}
+
+.main__advers-video {
+    margin-right: 40px;
+    background-color: gray;
+    border-radius: 8px;
+    height: 207px;
+    overflow: hidden;
+    width: 370px;
+}
+
+.main__advers-info {
+    flex-basis: 360px;
+}
+
+.advers__info-top {
+    background: #d1f2ff;
+    border-radius: 100px;
+    color: #0059fb;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 9px 35px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.advers__info-title {
+    color: #111;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 46px;
+    margin: 20px 0;
+}
+
+.advers__info-text {
+    margin-bottom: 20px;
+    color: #21244a;
+    line-height: 24px;
+}
+.advers__info-btn a {
+    display: inline-block;
+    background: #0059fb;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 22px;
+    padding: 8px 46px;
+    cursor: pointer;
+}
